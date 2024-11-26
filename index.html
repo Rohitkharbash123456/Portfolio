@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="work.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>ROHIT KUMAR</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header">
+        <div class="container">
+           
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi I'm <span>Rohit Kumar</span> </h1>
+                <p>A passionate Frontend Developer with a drive to create exceptional
+                     user experiences through the use of HTML, CSS, and JavaScript. Seeking
+                      a position to leverage strong technical and problem-solving skills and
+                       extensive web development knowledge to achieve organizational efficiency,
+                        reduce page load speeds, and optimize user interfaces.</p>
+                   <div> <a href="rohit.pdf" download class="btn" style = "margin:20px 0px ; padding: 10px 30px; font-size: 20px;">Download CV</a></div>
+            </div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="img2.png"> 
+            </div>
+            <div class="about-col-2"> 
+                <h1 class="sub-title">About Me</h1>
+                <p class = "intro">A goal-oriented Entry Level Frontend Developer with knowledge of HTML, 
+                    CSS, JavaScript seeking to use technical proficiency and
+                     creativity to develop engaging user experiences and advance in a professional career.
+                      Looking to leverage effective debugging, code optimization and project collaboration 
+                      capabilities to produce applications that exceed user expectations.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Html, Css, BootStrap, WordPress, JavaScript, React</span></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024-Current</span><br>Frontend Developer at Zapecode Pvt. Ltd.</li>
+                                <li><span>2023-2024</span><br>Frontend Developer Training at Zapecode Pvt. Ltd.</li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul> <li><span>2021-2023</span><br>Master of Computer Applicaton
+                                <p style="font-size: 15px; margin-top: 7px;">GURU JAMBHESHWAR UNIVERSITY, HISAR </p></li>
+                                <li><span>2017-2020</span><br>BSc Computer Science <br> 
+                                   <p style="font-size: 15px; margin-top: 7px;">GURU JAMBHESHWAR UNIVERSITY, HISAR </p></li>
+                               
+                                
+                            </ul>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class = "skill"><h1 class="sub-title">My Skills</h1>
+<div class="skill-list">
+    <div class="skill-items">
+        <i class='bx bxl-html5'></i>
+        <span>HTML</span>
+    </div>
+<div class="skill-items">
+<i class='bx bxl-css3'></i>
+            <span>CSS</span>
+        </div>
+        <div class="skill-items">
+            <i class='bx bxl-javascript' ></i>
+            <span>JavaScript</span>
+        </div>
+        <div class="skill-items">
+            <i class='bx bxl-bootstrap' ></i>
+            <span>Bootstrap</span>
+        </div>
+        <div class="skill-items">
+            <i class='bx bxl-wordpress' ></i>
+            <span>WordPress</span>
+        </div>
+        <div class="skill-items">
+            <i class='bx bxl-react' ></i>
+            <span>React</span>
+        </div>
+        
+    </div>
+</section>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Screenshot 2024-11-22 103822.png">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <h3>Technology used : React,Tailwind Css</h3>
+                   
+                        <li>Cart Page with Order Summary and Checkout Flow</li>
+                      <li>  Billing, Shipping, and Payment Interfaces</li>
+                      
+                       <li> Product Search and Filtering Functionality</li>
+                       <li> State Management with Redux Toolkit</li>
+                         <a href="https://e-commerce-indol-ten.vercel.app/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Screenshot 2024-11-22 103922.png">
+                <div class="layer">
+                    <h3>University Website</h3>
+                    <h3>Technology used : React</h3>
+                   <li>Completely responsive</li>
+                   <li>Smooth scroll</li>
+                        
+                         <a href="https://university-wexh.vercel.app/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="zapecode.png">
+                <div class="layer">
+                    <h3>Digital Agency</h3>
+                    <h3>Technology used : React</h3>
+                    <li>Responsive Website</li>
+                    <li>Smooth scroll</li>
+                         <a href="https://zapecode.vercel.app/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            
+        </div><span id="dots"></span>
+        <div class="work-list" id = "more">
+            <div class="work" >
+                <img src="Screenshot 2024-11-22 111501.png" style = "height:250px;" >
+                <div class="layer">
+                    <h3>ItCompany Website</h3>
+                    <h3>Technology used : WordPress</h3> 
+                         <a href="https://realrohit.online/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" >
+                <img src="Screenshot 2024-11-22 113827.png" style = "height:250px;">
+                <div class="layer">
+                    <h3>CoffeeShop Website</h3>
+                    
+                    <h3>Technology used : WordPress</h3>   
+                         <a href="https://coffeeshop.realrohit.online/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" >
+                <img src="Screenshot 2024-11-26 105202.png" style = "height:250px;">
+                <div class="layer">
+                    <h3>Shopping Store Website</h3>
+                    
+                    <h3>Technology used : WordPress</h3>   
+                         <a href="https://store.realrohit.online/" target =  "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn" onclick="myFunction()" id="myBtn">See More</button>
+    </div>
+</div>
+</div>
+
+
+<div class="contact" id = "contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>rkharbash3030@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>90686-21218</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="rohit.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="0178f2a1-bbc7-4562-83bf-debb1249f1ab">
+
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @ Rohit Kumar.</p>
+</div>
+</div>
+</div> 
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "grid";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "grid";
+      }
+    }
+    </script>
+
+</body>
+</html>
